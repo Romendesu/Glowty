@@ -4,12 +4,21 @@
     font-family: 'Fredoka', sans-serif;
     color: #096266;
 }
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 body{
     background-color: #DAE3D9;
+    margin: 0px;
+    padding: 0px;
 }
 /* Encabezado de la pagina web*/
 header {
     display: flex;
+    width:100%;
     justify-content: center;
     text-align: center;
     flex-direction: column;
@@ -48,11 +57,14 @@ header div button:hover, .divisorLogin button:hover{
     border-color: #DAE3D9;
 }
 /* Cuerpo de pagina */
-.hide{
-    transition: 0.15s ease-out;
+.show {
+    opacity: 1;
+    /* Otras propiedades para mostrar el elemento */
 }
-.show{
-    transition: 0.15s ease-out;
+.hide {
+    opacity: 0;
+    pointer-events: none; /* Para que no se pueda interactuar con él */
+    /* Otras propiedades para ocultar el elemento */
 }
 /* Info */
 .introImg{
@@ -65,7 +77,7 @@ header div button:hover, .divisorLogin button:hover{
     width: 50%;
     font-weight: 500;
     margin-left: 5%;
-    margin-bottom: 50%;
+    margin-bottom: 10%;
 }
 .introImg div h1{
     font-size: x-large;
@@ -102,4 +114,10 @@ header div button:hover, .divisorLogin button:hover{
     justify-content: center;
     flex-direction: row;
     gap: 100px;
+}
+/* Offer */
+
+.offer div{
+    text-align: center;
+    font-size: xx-large;
 }

@@ -1,8 +1,11 @@
 # Glowty
 
-Para hacer el commit y modificar el contenido, debes de incluir el framework de express. Para instalarlo, debes de poner en tu powershell:
+Módulos requeridos: Path, Express.
 
-```npm install express```
+Instalacion:
+
+```npm install express``` => Backend 
+```npm install path```    => Declaracion de rutas
 
 Debes asegurarte que node y nmp estan instalados en tu máquina.
 

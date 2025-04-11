@@ -2,7 +2,7 @@
 
 Módulos requeridos: Path, Express.
 
-Instalacion:
+Instalacion: Debes escribir en tu terminal los siguientes comandos:
 
 ```npm install express``` => Backend 
 

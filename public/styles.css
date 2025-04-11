@@ -29,7 +29,7 @@ header div{
     flex-direction: row;
     gap:10%;
 }
-header div button{
+header div button, .divisorLogin button{
     font-size: medium;
     text-align: center;
     font-weight: bold;
@@ -42,14 +42,13 @@ header div button{
     width: 120px;
     height: 50px;
 }
-header div button:hover{
+header div button:hover, .divisorLogin button:hover{
     transform: scale(1.1);
     background-color: #DAE3D9;
     border-color: #DAE3D9;
 }
 /* Cuerpo de pagina */
 .hide{
-    visibility: hidden;
     transition: 0.15s ease-out;
 }
 .show{
@@ -80,4 +79,27 @@ header div button:hover{
     width: 400px;
     height: 400px;
     margin-right: 5%;
+}
+/*Cuadro de login*/
+
+.seccionLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    margin:auto;
+    margin-top: 5%;
+    border-style: solid;
+    border-color: #b9c3b8;
+    border-radius: 10px;
+    background-color: #b9c3b8;
+    padding: 2.5%;
+}
+.divisorLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 100px;
 }

@@ -1,0 +1,68 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": ["hola", "buenas", "qué tal", "hey", "holi"],
+      "responses": ["Hola!", "Qué tal?", "Hola, humano!", "Hey! Cómo estás?"]
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["adios", "nos vemos", "hasta luego", "bye", "chau"],
+      "responses": ["Chao!", "Hasta la próxima", "Cuídate mucho", "Nos vemos pronto"]
+    },
+    {
+      "tag": "agradecimiento",
+      "patterns": ["gracias", "muchas gracias", "te lo agradezco", "gracias bot"],
+      "responses": ["De nada!", "Para eso estoy", "Con gusto", "Siempre a la orden"]
+    },
+    {
+      "tag": "ayuda",
+      "patterns": ["me puedes ayudar", "necesito ayuda", "ayúdame", "no se que hacer"],
+      "responses": ["Claro, dime qué necesitas", "Estoy aquí para ayudarte", "Cuenta conmigo"]
+    },
+    {
+      "tag": "broma",
+      "patterns": ["cuéntame una broma", "hazme reir", "chiste", "dime un chiste"],
+      "responses": [
+        "¿Por qué el libro de matemáticas está triste? Porque tenía demasiados problemas.",
+        "¿Qué le dijo un gusano a otro gusano? Voy a dar una vuelta a la manzana.",
+        "¿Sabes cuál es el colmo de un electricista? No encontrar su corriente de trabajo."
+      ]
+    },
+    {
+      "tag": "clima",
+      "patterns": ["¿cómo está el clima?", "¿qué tiempo hace?", "clima", "tiempo"],
+      "responses": [
+        "Lo siento, no puedo consultar el clima ahora mismo, pero puedes revisarlo en una app de clima.",
+        "¿Te gustaría saber el clima? Puedes buscarlo en cualquier app o página web del clima."
+      ]
+    },
+    {
+      "tag": "informacion",
+      "patterns": ["¿quién eres?", "¿qué eres?", "cuéntame de ti", "qué haces"],
+      "responses": [
+        "Soy un chatbot creado para ayudarte con preguntas y tareas sencillas.",
+        "Soy un asistente virtual, aquí para hacerte la vida más fácil.",
+        "Soy solo un bot, pero siempre trato de ofrecerte la mejor ayuda."
+      ]
+    },
+    {
+      "tag": "motivacion",
+      "patterns": ["necesito motivación", "anímame", "¿tienes algo motivador?", "necesito un empujón"],
+      "responses": [
+        "¡Tú puedes lograrlo! Solo tienes que seguir adelante.",
+        "Recuerda que todo esfuerzo tiene su recompensa.",
+        "Nunca es tarde para empezar. ¡Hazlo hoy!"
+      ]
+    },
+    {
+      "tag": "despedida_grande",
+      "patterns": ["adiós para siempre", "nos vemos en otra vida", "hasta nunca", "hasta siempre"],
+      "responses": [
+        "Es una despedida muy profunda, ¡pero siempre estaré aquí si me necesitas!",
+        "Que la vida te trate bien, ¡espero que nos volvamos a encontrar en el futuro!",
+        "Hasta siempre, ¡te deseo lo mejor!"
+      ]
+    }
+  ]
+}
